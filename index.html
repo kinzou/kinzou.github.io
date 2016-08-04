@@ -4,16 +4,50 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>Bootstrap CSSを使ったHtml<script type="text/javascript" src=""></script></title>
+    <link rel="stylesheet" href="about.css">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  --->
-  </head>
+    </head>
   <body>
-    <h1>Hello, world!</h1>
+    <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="selected">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div id="logo">
+        <img src="kinzou.jpg" alt="仲村金三">
+        <h1>仲村 金三</h1>
+      </div>
+    </header>
+    <div class="container">
+      <section>
+        <h2>About</h2>
+        <h3>自己紹介</h3>
+        <p>仲村 金三（自由人）</p>
+        <p>沖縄県那覇市出身。沖縄と東京で暮らしています。</p>
+        <p>最近は、<span class="red">TechAcademy</span> で学習しています。<br>
+        また、新しい事業を開始するために、Ruby on Railsの勉強を始めました。</p>
+        <p>私のポートフォリオを見て気になった方は、<a href="contact.html">Contact</a>よりご連絡お願い致します。</p>
+        <h3>リンク</h3>
+        <ul>
+          <li><a href="https://www.facebook.com/KinzouNakamura" target="_blank">Facebook</a></li>
+          <li><a href="https://twitter.com/okinawahosto" target="_blank">Twitter</a></li>
+          <li><a href="https://kinzou.github.io" target="_blank">github</a></li>
+        </ul>
+      </section>
+      <footer>
+        <p>&copy; 2016 Kinzou Nakamura.</p>
+      </footer>
+    </div>
+  </body>
   </body>
 </html>
