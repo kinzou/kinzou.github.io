@@ -14,11 +14,12 @@ span.red {
 }
 
 header {
-  background-image: url("naha-shintoshin.jpg");
+  background-image: url("bg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 100px;
+  
 }
 
 #logo {
